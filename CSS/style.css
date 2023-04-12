@@ -1,0 +1,43 @@
+.nav-tabs{
+    background-color: #ffebc6;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: var(--bs-nav-tabs-link-active-color);
+    /*background-color: #ffebc6;*/
+    border-color: var(--bs-nav-tabs-link-active-border-color);
+}
+ 
+.d-block{
+    width: 100px;;
+    height: 400px;
+}
+
+.card img, .card-img-bottom, .card-img-top{
+    width: 20% !important;
+    height: 30% !important;
+    border-radius: 50px;
+}
+
+.nosotros{
+    margin-left: 15px;
+    margin-top: 50px;
+}
+.card-img-top{
+    margin-left: 30px;
+}
+.col{
+    padding-bottom: 30px;
+}
+.titulo{
+    position: relative;
+    padding-top: 10%;
+}
+.subtitulo{
+    margin-bottom: 30px;
+}
+.btn{
+   background-color: #f194b4 !important;
+   border-color: #f194b4;
+   
+}
